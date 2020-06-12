@@ -1,4 +1,4 @@
-#Day 1 learning about 
+#Day 1/100 
 
 #Creating a list class for data structures
 #Creating a new data type and ensure that this data provides the
