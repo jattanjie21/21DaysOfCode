@@ -22,7 +22,7 @@ class List():
         return self.__len__() == 0
 
 class Queue(List):
-#adding extra methods after inheriting
+#Adding more Queue like objects
 
     def pop_item(self,element):
         self._list.pop[0]
@@ -32,3 +32,8 @@ class Queue(List):
 
     def __str__(self):
         return 'Queue: ' + str(self._list)
+
+class Stack(Queue):
+    pass
+
+    
