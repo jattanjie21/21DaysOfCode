@@ -13,7 +13,7 @@
 
 #Just realized i need a method i created yesterday
 #Awesome so i just have to import sweet!!
-from Day1.List import *
+from Day1.day1 import *
 
 import random
 minimum = 1
@@ -27,12 +27,20 @@ flip_test = 10
 
 list_flips = []
 
+flips = 0
 def flip():
-    if list_flips.is_empty():
-        random.randint(minimum,maximum).append(list_flips)
-    else:
-        
+    global flips
+    flips += 1
+    return random.randint(minimum,maximum)
 
+trials = 10000
+for i in range(trials):
+    first_flip = flip()
+    while flip() == first_flip:
+        pass
+
+print("flips done is {}".format(flips))
+print("average flips", flips / trials)
 
 
 
