@@ -5,3 +5,5 @@
 - Functions
 
 - Lists
+
+- Random number generator
