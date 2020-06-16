@@ -1,4 +1,4 @@
-- W3schools.com/python3
+- https://www.w3schools.com/python/
 
 - https://docs.python.org/2/library/collections.html
 
