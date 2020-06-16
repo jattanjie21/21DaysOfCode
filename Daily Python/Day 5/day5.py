@@ -37,6 +37,11 @@ def median(*args):
 
 #Mode
 def mode(*args):
+    c = Counter(args)
+    
+    mode = c.most_common(1) #return only the number that appears most
+
+    return mode[0][0]
 
     
 
