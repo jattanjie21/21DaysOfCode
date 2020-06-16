@@ -2,10 +2,14 @@
 #
 #
 
-import 
+from collections import Counter
+
 #Mean
 def mean(*args):
     #finding the sum of all the numbers
+
+    args.sort()
+
     total_sum = sum(args)
 
     length = len(args)
@@ -33,6 +37,8 @@ def median(*args):
 
 #Mode
 def mode(*args):
+
+    
 
 
 #s = mean(23,3,4,5,6,7,8,9,3,67)
