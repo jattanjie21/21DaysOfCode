@@ -26,7 +26,7 @@ def option():
     print("B. CONVERT FROM RADIAN TO DEGREES")
     print("C. QUIT")
 
-    choice_input = input(float(">> "))
+    choice_input = float(input(">> "))
 
     if choice_input.lower() == 'a':
         print(deg_rad(choice_input))
