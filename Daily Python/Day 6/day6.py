@@ -9,14 +9,17 @@
 
 import math
 
+#Converting from radian to degree 
 def rad_deg(number):
     degree = number * ( 180 / math.pi )
     return degree
 
+#Converting from degree to radian 
 def deg_rad(number):
     radian = number * (math.pi / 180)
     return radian
 
+#Option
 def option():
     print("MENU")
     print("A. CONVERT FROM DEGREE TO RADIAN")
@@ -36,5 +39,5 @@ def option():
     else:
         print("Wrong input")
 
-
+#Calling the option method
 option()
