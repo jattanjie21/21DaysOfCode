@@ -1,4 +1,4 @@
-# A SCRIPT THAT WILL CALCULATE MEAN,MEDIAN,MODE AND RANGE
+# A SCRIPT THAT WILL CALCULATE MEAN,MEDIAN,MODE,RANGE AND FREQUENCY
 #
 #
 
@@ -50,6 +50,16 @@ def range(*args):
     range = args[-1] - args[0]
 
     return range
+
+#Frequency
+def frequency(*args):
+    table = Counter(args)
+
+    print("NUMBERS\tFREQUENCY")
+
+    for number in table.most_common:
+        print(number[0],'\t',number[1])
+
 
     
 
