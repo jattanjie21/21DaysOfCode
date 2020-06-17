@@ -17,7 +17,7 @@ def deg_rad(number):
     radian = number * (math.pi / 180)
     return radian
 
-def choice():
+def option():
     print("MENU")
     print("A. CONVERT FROM DEGREE TO RADIAN")
     print("B. CONVERT FROM RADIAN TO DEGREES")
@@ -25,7 +25,16 @@ def choice():
 
     choice_input = input(float(">> "))
 
-    if choice_input.lower() == a:
-        deg_rad(choice_input)
-    elif choice_input.lower() == b:
-        rad_deg()
+    if choice_input.lower() == 'a':
+        print(deg_rad(choice_input))
+
+    elif choice_input.lower() == 'b':
+        print(rad_deg(choice_input))
+
+    elif choice_input.lowe() == 'c':
+        exit()
+    else:
+        print("Wrong input")
+
+
+option()
