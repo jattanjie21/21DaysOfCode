@@ -23,4 +23,9 @@ def choice():
     print("B. CONVERT FROM RADIAN TO DEGREES")
     print("C. QUIT")
 
-    choice = input(float(">> "))
+    choice_input = input(float(">> "))
+
+    if choice_input.lower() == a:
+        deg_rad(choice_input)
+    elif choice_input.lower() == b:
+        rad_deg()
