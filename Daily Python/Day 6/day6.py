@@ -7,3 +7,11 @@
 #    Ask the end-user to input an angle in the required unit.
 #    Calculate and output the angle in the alternative angle unit.
 
+def rad_deg():
+    pass
+
+def deg_rad():
+    pass
+
+def input():
+    pass
