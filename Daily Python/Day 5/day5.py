@@ -47,7 +47,11 @@ def mode(*args):
 def range(*args):
     args.sort
 
-    range = args[-1] - args[0]
+    lowest = args[0]
+
+    highest = args[-1]
+
+    range = highest - lowest
 
     return range
 
