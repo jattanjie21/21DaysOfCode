@@ -9,3 +9,5 @@
 - Random number generator
 
 - Collection library
+
+- Fire library
