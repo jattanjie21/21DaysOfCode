@@ -27,6 +27,5 @@ elif input_option == "3":
 
     print('Last seen was',last_seen)
 
-
 else:
-    pass
+    print("Invalid input!!")
