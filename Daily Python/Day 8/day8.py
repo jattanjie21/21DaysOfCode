@@ -20,5 +20,13 @@ if input_option == "1":
 elif input_option == "2":
     pass
 
+elif input_option == "3":
+    ask = int(input("When last were you here? "))
+
+    last_seen = time_info.humanize(hours = -(ask))
+
+    print('Last seen was',last_seen)
+
+
 else:
     pass
