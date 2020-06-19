@@ -7,18 +7,18 @@
 import arrow
 
 print("WELCOME TO PYCLOCK")
-print("1. World Clock\n2. Get Current Time\n3.Last Seen Feature")
+print("1.Get Current Time Information\n2.Last Seen Feature")
 
 #getting the time information
 time_info = arrow.utcnow()
 
 input_option = input(">> ")
 
-if input_option == "1":
-    pass
+if input_option == "2":
+#Formatting the time from utc()
+    info = time_info.format('YYYY-MM-DD HH:mm:ss ZZ')
 
-elif input_option == "2":
-    pass
+    print(info)
 
 elif input_option == "3":
     ask = int(input("When last were you here? "))
