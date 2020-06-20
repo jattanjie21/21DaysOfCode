@@ -15,7 +15,9 @@ cur = conn.cursor()
 def create_table():
     cur.execute('CREATE TABLE IF NOT EXISTS test(NAME TEXT,SURNAME TEXT,ADDRESS TEXT)')
     #if not exists so you can avoid deleting a previous table
+
     conn.commit()
+
     conn.close()
 
     #always close after a commit
@@ -24,6 +26,7 @@ def create_table():
 def update(name,surname,address):
     cur.execute('INSERT INTO test VALUES(?,?,?)',(name,surname,address))
     #The ? avoid sql injections in the future
+    
     conn.commit()
 
     conn.close()
