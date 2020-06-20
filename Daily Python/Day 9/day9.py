@@ -27,7 +27,16 @@ def update(name,surname,address):
 
     conn.close()
 
+def search_all():
+    search = cur.execute('SELECT NAME,SURNAME,ADDRESS FROM test')
+    #the above code will fetch all names,surnames and address and store it in a list 
 
+    #for loop to print the results
+    for result in search:
+        print('NAME =',result[0])
+        print('SURNAME =',result[1])
+        print('ADDRESS =',result[2])
+        print()#Next line
 
 
 
