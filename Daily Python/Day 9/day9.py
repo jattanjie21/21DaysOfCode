@@ -12,12 +12,22 @@ conn = sqlite3.connect('day9.db')
 cur = conn.cursor()
 
 #Function to create table
-def create_table(table_name):
-    cur.execute('CREATE TABLE IF NOT EXISTS ?',(table_name))
+def create_table():
+    cur.execute('CREATE TABLE IF NOT EXISTS test(NAME TEXT,SURNAME TEXT,ADDRESS TEXT)')
     #if not exists so you can avoid deleting a previous table
     conn.commit()
     conn.close()
 
     #always close after a commit
+
+def update(name,surname,address):
+    cur.execute('INSERT INTO test VALUES(?,?,?)',(name,surname,address))
+    #The ? avoid sql injections in the future
+    conn.commit()
+
+    conn.close()
+
+
+
 
 
