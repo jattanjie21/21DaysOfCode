@@ -20,6 +20,7 @@ def create_table():
 
     #always close after a commit
 
+#Update function
 def update(name,surname,address):
     cur.execute('INSERT INTO test VALUES(?,?,?)',(name,surname,address))
     #The ? avoid sql injections in the future
@@ -27,6 +28,7 @@ def update(name,surname,address):
 
     conn.close()
 
+#Search all function
 def search_all():
     search = cur.execute('SELECT NAME,SURNAME,ADDRESS FROM test')
     #the above code will fetch all names,surnames and address and store it in a list 
@@ -38,5 +40,16 @@ def search_all():
         print('ADDRESS =',result[2])
         print()#Next line
 
+    conn.commit()
 
+    conn.close()
+
+#Delete function
+def delete(id):
+    #every record in the database most contain an id by default
+    cur.execute('DELETE FROM test WHERE ID = ? ',(id))
+
+    conn.commit()
+
+    conn.close()
 
