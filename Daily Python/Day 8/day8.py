@@ -14,13 +14,13 @@ time_info = arrow.utcnow()
 
 input_option = input(">> ")
 
-if input_option == "2":
+if input_option == "1":
 #Formatting the time from utc()
     info = time_info.format('YYYY-MM-DD HH:mm:ss ZZ')
 
     print(info)
 
-elif input_option == "3":
+elif input_option == "2":
     ask = int(input("When last were you here? "))
 
     last_seen = time_info.humanize(hours = -(ask))
