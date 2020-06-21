@@ -23,3 +23,5 @@ def sort_table(sort_by):
 #Html form function
 def html_form():
     return table.get_html_string()
+
+    
