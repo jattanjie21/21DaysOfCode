@@ -19,3 +19,6 @@ def align_table(position):
 #Sort Function
 def sort_table(sort_by):
     table.sortby = sort_by
+
+#Html form function
+def html_form():
