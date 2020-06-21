@@ -12,3 +12,7 @@ table.field_names = ['Name', 'Age', 'Address']
 #Function that adds data to the table
 def add_record(name,age,address):
     table.add_row([name, age, address])
+
+
+def align(position):
+    
