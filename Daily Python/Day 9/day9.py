@@ -11,6 +11,7 @@ conn = sqlite3.connect('day9.db')
 #creating cursor
 cur = conn.cursor()
 
+
 #Function to create table
 def create_table():
     cur.execute('CREATE TABLE IF NOT EXISTS test(NAME TEXT,SURNAME TEXT,ADDRESS TEXT)')
