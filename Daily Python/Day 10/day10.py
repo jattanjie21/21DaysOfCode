@@ -13,6 +13,7 @@ table.field_names = ['Name', 'Age', 'Address']
 def add_record(name,age,address):
     table.add_row([name, age, address])
 
-
-def align(position):
+#Align function
+def align_table(position):
+    table.align() = position
     
