@@ -17,3 +17,5 @@ def add_record(name,age,address):
 def align_table(position):
     table.align = position
     
+#Sort Function
+def sort_table(sort_by):
