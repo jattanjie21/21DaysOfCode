@@ -15,5 +15,5 @@ def add_record(name,age,address):
 
 #Align function
 def align_table(position):
-    table.align() = position
+    table.align = position
     
