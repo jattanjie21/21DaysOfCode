@@ -1,7 +1,6 @@
 #TIME IN PYTHON USING THE ARROW LIBRARY
 #
 #
-#
 
 #Importing the arrow library
 import arrow
