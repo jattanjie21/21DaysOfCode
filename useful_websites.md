@@ -31,3 +31,9 @@
 - https://pypi.org/project/PrettyTable/
 
 - https://github.com/jazzband/prettytable
+
+
+#FILE INPUT AND OUTPUT
+- https://docs.python.org/3/tutorial/inputoutput.html
+
+- https://www.tutorialspoint.com/python/python_files_io.htm
