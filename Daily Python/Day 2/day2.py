@@ -11,6 +11,7 @@
 # by creating a program that simulates several series of coin flips.
 
 
+
 #Just realized i need a method i created yesterday
 #Awesome so i just have to import sweet!!
 from Day1.day1 import *
