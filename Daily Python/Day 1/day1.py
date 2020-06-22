@@ -2,7 +2,7 @@
 
 #Creating a list class for data structures
 #Creating a new data type and ensure that this data provides the
-#list,queue and stack like behaviour and hide the list inside this data type...
+#list,queue and stack like behaviour and hide the list inside this data type..
 
 class List():
 
