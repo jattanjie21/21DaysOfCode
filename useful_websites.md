@@ -35,3 +35,5 @@
 - https://docs.python.org/3/tutorial/inputoutput.html
 
 - https://www.tutorialspoint.com/python/python_files_io.htm
+
+- https://realpython.com/read-write-files-python
