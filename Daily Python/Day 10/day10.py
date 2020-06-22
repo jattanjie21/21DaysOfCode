@@ -27,3 +27,4 @@ def html_form():
 #Print table function
 def print_table():
     print(table)
+    
