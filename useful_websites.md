@@ -25,3 +25,7 @@
 - https://www.w3resource.com/python-exercises/sqlite/index.php
 
 - https://www.tutorialspoint.com/sqlite/sqlite_python.htm
+
+
+#PRETTY TABLE LIBRARY
+- https://pypi.org/project/PrettyTable/

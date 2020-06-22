@@ -15,3 +15,5 @@
 - Arrow Library
 
 - Sqlite Library
+
+- Pretty Table Library
