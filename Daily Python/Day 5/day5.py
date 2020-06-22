@@ -5,6 +5,7 @@
 from collections import Counter
 
 #Mean
+
 def mean(*args):
     #finding the sum of all the numbers
 
