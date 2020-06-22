@@ -208,65 +208,6 @@ open('abc.txt')
 
 open('abc.txt', 'r')
 
-open('abc.txt', 'w')
-With these types of files, open() will return a TextIOWrapper file object:
-
->>> file = open('dog_breeds.txt')
->>> type(file)
-<class '_io.TextIOWrapper'>
-This is the default file object returned by open().
-
-Buffered Binary File Types
-A buffered binary file type is used for reading and writing binary files. Here are some examples of how these files are opened:
-
-open('abc.txt', 'rb')
-
-open('abc.txt', 'wb')
-With these types of files, open() will return either a BufferedReader or BufferedWriter file object:
-
->>> file = open('dog_breeds.txt', 'rb')
->>> type(file)
-<class '_io.BufferedReader'>
->>> file = open('dog_breeds.txt', 'wb')
->>> type(file)
-<class '_io.BufferedWriter'>
-Raw File Types
-A raw file type is:
-
-“generally used as a low-level building-block for binary and text streams.” (Source)
-
-It is therefore not typically used.
-
-Here’s an example of how these files are opened:
-
-open('abc.txt', 'rb', buffering=0)
-With these types of files, open() will return a FileIO file object:
-
->>> file = open('dog_breeds.txt', 'rb', buffering=0)
->>> type(file)
-<class '_io.FileIO'>
-Reading and Writing Opened Files
-Once you’ve opened up a file, you’ll want to read or write to the file. First off, let’s cover reading a file. There are multiple methods that can be called on a file object to help you out:
-
-Method	What It Does
-.read(size=-1)	This reads from the file based on the number of size bytes. If no argument is passed or None or -1 is passed, then the entire file is read.
-.readline(size=-1)	This reads at most size number of characters from the line. This continues to the end of the line and then wraps back around. If no argument is passed or None or -1 is passed, then the entire line (or rest of the line) is read.
-.readlines()	This reads the remaining lines from the file object and returns them as a list.
-Using the same dog_breeds.txt file you used above, let’s go through some examples of how to use these methods. Here’s an example of how to open and read the entire file using .read():
-
->>> with open('dog_breeds.txt', 'r') as reader:
->>>     # Read & print the entire file
->>>     print(reader.read())
-Pug
-Jack Russell Terrier
-English Springer Spaniel
-German Shepherd
-Staffordshire Bull Terrier
-Cavalier King Charles Spaniel
-Golden Retriever
-West Highland White Terrier
-Boxer
-Border Terrier
 
 """
 A simple script and library to convert files or strings from dos like
