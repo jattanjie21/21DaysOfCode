@@ -24,4 +24,6 @@ def sort_table(sort_by):
 def html_form():
     return table.get_html_string()
 
-
+#Print table function
+def print_table():
+    print(table)
