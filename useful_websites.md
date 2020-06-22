@@ -29,3 +29,5 @@
 
 #PRETTY TABLE LIBRARY
 - https://pypi.org/project/PrettyTable/
+
+- https://github.com/jazzband/prettytable
