@@ -12,6 +12,7 @@ def str2unix(input_str: str) -> str:
     Converts the string from \r\n line endings to \n
 
     Parameters
+    
     ----------
     input_str
         The string whose line endings will be converted
