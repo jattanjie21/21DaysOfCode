@@ -22,5 +22,5 @@ Atleast start a project or two before the end of the challenge hopefully(fingers
 Will be exploring django and flask maybe.
 
 
-FINALLY FEEL FREE TO FORK AND RECREATE THE CHALLENGE........
+FINALLY FEEL FREE TO FORK AND RECREATE THE CHALLENGE.........
 
