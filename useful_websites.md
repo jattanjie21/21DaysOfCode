@@ -37,3 +37,10 @@
 - https://www.tutorialspoint.com/python/python_files_io.htm
 
 - https://realpython.com/read-write-files-python
+
+#Turtle
+- https://docs.python.org/3/library/turtle.html
+
+- http://opentechschool.github.io/python-beginners/en/simple_drawing.html
+
+- https://runestone.academy/runestone/books/published/thinkcspy/PythonTurtle/OurFirstTurtleProgram.html
