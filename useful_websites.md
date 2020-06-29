@@ -44,3 +44,8 @@
 - http://opentechschool.github.io/python-beginners/en/simple_drawing.html
 
 - https://runestone.academy/runestone/books/published/thinkcspy/PythonTurtle/OurFirstTurtleProgram.html
+
+# Open pyxl
+- https://www.tutorialspoint.com/python-for-spreadsheet-users
+
+- https://realpython.com/openpyxl-excel-spreadsheets-python/
