@@ -49,3 +49,9 @@
 - https://www.tutorialspoint.com/python-for-spreadsheet-users
 
 - https://realpython.com/openpyxl-excel-spreadsheets-python/
+
+# Generators
+
+- https://www.learnpython.org/en/Generators
+
+- https://www.programiz.com/python-programming/generator
