@@ -55,3 +55,10 @@
 - https://www.learnpython.org/en/Generators
 
 - https://www.programiz.com/python-programming/generator
+
+# Pyqt5
+- https://pypi.org/project/PyQt5/
+
+- https://doc.qt.io/qtforpython/
+
+- https://www.learnpyqt.com/examples/
