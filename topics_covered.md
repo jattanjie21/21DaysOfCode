@@ -23,3 +23,5 @@
 - Openpyxl
 
 - Generators
+
+- Pyqt5
