@@ -62,3 +62,8 @@
 - https://doc.qt.io/qtforpython/
 
 - https://www.learnpyqt.com/examples/
+
+#Threads
+- https://www.tutorialspoint.com/python/python_multithreading.htm
+
+- https://realpython.com/intro-to-python-threading/
