@@ -27,3 +27,5 @@
 - Pyqt5
 
 - Threads
+
+- Numpy Array
