@@ -67,3 +67,6 @@
 - https://www.tutorialspoint.com/python/python_multithreading.htm
 
 - https://realpython.com/intro-to-python-threading/
+
+# Numpy Arrays
+- https://www.geeksforgeeks.org/python-arrays/
