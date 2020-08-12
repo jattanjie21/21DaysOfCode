@@ -72,3 +72,8 @@
 - https://www.geeksforgeeks.org/python-arrays/
 
 # Socket Programming
+- https://docs.python.org/3/library/socket.html
+
+- https://realpython.com/python-sockets/
+
+- https://docs.python.org/3/howto/sockets.html
