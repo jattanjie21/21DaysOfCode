@@ -9,3 +9,6 @@ data = {
  
  #And then pass it to the pandas DataFrame constructor
 
+purchases = pd.DataFrame(data)
+
+purchases
