@@ -22,3 +22,5 @@ purchases = pd.DataFrame(data)
 purchases = pd.DataFrame(data, index=['June', 'Robert', 'Lily', 'David'])
 
 #purchase
+
+purchases.loc['June']   #finding the location of the customer
