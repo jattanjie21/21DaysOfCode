@@ -6,3 +6,6 @@
      'mango': [0, 3, 7, 2]
      
  }
+ 
+ #And then pass it to the pandas DataFrame constructor
+
