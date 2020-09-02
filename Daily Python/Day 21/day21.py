@@ -36,3 +36,11 @@ df = pd.read_json('purchases.json')
 
 # Reading with SQLite
 df = pd.read_sql_query("SELECT * FROM purchases", con)
+
+#Converting back to a CSV, JSON, or SQL
+
+df.to_csv('new_purchases.csv')
+
+df.to_json('new_purchases.json')
+
+df.to_sql('new_purchases', con)
