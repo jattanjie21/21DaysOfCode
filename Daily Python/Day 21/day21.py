@@ -30,4 +30,7 @@ purchases.loc['June']   #finding the location of the customer
 
 df = pd.read_csv('purchases.csv')
 
-#
+#Reading with JSon
+
+df = pd.read_json('purchases.json')
+
