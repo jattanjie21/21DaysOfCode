@@ -34,3 +34,5 @@ df = pd.read_csv('purchases.csv')
 
 df = pd.read_json('purchases.json')
 
+# Reading with SQLite
+df = pd.read_sql_query("SELECT * FROM purchases", con)
