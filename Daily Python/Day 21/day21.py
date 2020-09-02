@@ -14,4 +14,11 @@ data = {
 
 purchases = pd.DataFrame(data)
 
-purchases
+#purchases
+
+
+# Let's have customer names as our index:
+
+purchases = pd.DataFrame(data, index=['June', 'Robert', 'Lily', 'David'])
+
+#purchase
