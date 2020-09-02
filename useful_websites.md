@@ -77,3 +77,10 @@
 - https://realpython.com/python-sockets/
 
 - https://docs.python.org/3/howto/sockets.html
+
+# Pandas
+- https://pypi.org/project/pandas/
+
+- https://www.geeksforgeeks.org/python-pandas-dataframe/
+
+- https://pandas.pydata.org/pandas-docs/stable/10min.html
