@@ -1,3 +1,6 @@
+import pandas as pd
+
+
 # Creating data from scratch 
 
 data = {
