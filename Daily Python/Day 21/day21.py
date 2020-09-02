@@ -24,3 +24,10 @@ purchases = pd.DataFrame(data, index=['June', 'Robert', 'Lily', 'David'])
 #purchase
 
 purchases.loc['June']   #finding the location of the customer
+
+
+#Reading the data with csv
+
+df = pd.read_csv('purchases.csv')
+
+#
