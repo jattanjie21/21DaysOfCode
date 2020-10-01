@@ -30,4 +30,4 @@
 
 - Numpy Array
 
-- Panda
+- Pandas
